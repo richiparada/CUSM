@@ -20,25 +20,28 @@ CUSM es una herramienta de automatización desarrollada en Python para administr
 🔧 Uso
 1. Cargar lista de switches
 Crear un archivo llamado switches.txt con una IP por línea:
+
 10.0.0.1
+
 10.0.0.2
+
 10.0.0.3
 
 
-2. Crear archivo de usuarios nuevos (usuarios_nuevos.txt)
+3. Crear archivo de usuarios nuevos (usuarios_nuevos.txt)
 Cada línea debe tener:
 usuario,contraseña
 nuevoadmin1,Password123
 supervisor,SecurePass456
 
-3. Crear archivo de credenciales .env
+4. Crear archivo de credenciales .env
 Guardar en credenciales.env:
 SSH_USER=usuario_ssh
 SSH_PASS=contrasena_ssh
 ENABLE_PASS=enable_actual
 NEW_ENABLE_PASS=nueva_enable
 
-4. Ejecutar scripts
+5. Ejecutar scripts
 Crear usuarios:
 python create_user.py
 
