@@ -15,6 +15,16 @@ CUSM es una herramienta de automatización desarrollada en Python para administr
 
 ---
 
+## 🛠️ Requisitos
+
+- Python 3.10 o superior
+- Paquetes de Python:
+
+##bash
+pip install netmiko python-dotenv
+
+---
+
 ## 📦 Estructura del Proyecto
 
 🔧 Uso
