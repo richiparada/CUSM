@@ -28,24 +28,36 @@ Crear un archivo llamado switches.txt con una IP por línea:
 10.0.0.3
 
 
-3. Crear archivo de usuarios nuevos (usuarios_nuevos.txt)
+2. Crear archivo de usuarios nuevos (usuarios_nuevos.txt)
+
 Cada línea debe tener:
+
 usuario,contraseña
+
 nuevoadmin1,Password123
+
 supervisor,SecurePass456
 
-4. Crear archivo de credenciales .env
+3. Crear archivo de credenciales .env
+
 Guardar en credenciales.env:
+
 SSH_USER=usuario_ssh
+
 SSH_PASS=contrasena_ssh
+
 ENABLE_PASS=enable_actual
+
 NEW_ENABLE_PASS=nueva_enable
 
-5. Ejecutar scripts
+4. Ejecutar scripts
+
 Crear usuarios:
+
 python create_user.py
 
 Modificar enable y eliminar un usuario:
+
 python modificar_admin.py
 
 🗃️ Logs
